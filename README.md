@@ -78,5 +78,24 @@ Dos licencias, porque aquí hay dos cosas distintas.
   en clase, también cobrando. Dos condiciones: cita de dónde viene, y si publicas una versión
   modificada, compártela con la misma licencia.
 
-Lo que no cubre ninguna de las dos: el material de terceros al que enlazamos. Los vídeos del
-catálogo son de sus autores y aquí solo hay enlaces y comentarios.
+### Cómo citar
+
+Si reutilizas el contenido, esta es la atribución que pide la licencia, enlace al sitio del
+autor incluido:
+
+> MMT · Marketing Measurement Toolkit, por [Jesús Martín Calvo](https://sixsevenapps.com),
+> bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+> Original: https://github.com/sixsevenappslab/mmt
+
+```html
+<a href="https://github.com/sixsevenappslab/mmt">MMT · Marketing Measurement Toolkit</a>
+por <a href="https://sixsevenapps.com">Jesús Martín Calvo</a>,
+bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+```
+
+Si lo has modificado, escribe "adaptado de" o "traducido de" en lugar de "por": la licencia
+obliga a señalar que hubo cambios. En vídeo o papel, donde no cabe un enlace, basta con el
+nombre y el dominio en texto.
+
+Lo que no cubre ninguna de las dos licencias: el material de terceros al que enlazamos. Los
+vídeos del catálogo son de sus autores y aquí solo hay enlaces y comentarios.
