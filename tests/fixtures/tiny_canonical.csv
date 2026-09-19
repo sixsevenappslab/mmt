@@ -1,0 +1,17 @@
+date,geo,channel,spend,impressions,clicks,kpi,control_price_index
+2024-01-01,national,search,100,1000,10,1000,1.00
+2024-01-01,national,social,50,500,5,1000,1.00
+2024-01-08,national,search,110,1100,11,1010,1.01
+2024-01-08,national,social,55,550,6,1010,1.01
+2024-01-15,national,search,120,1200,12,1020,1.02
+2024-01-15,national,social,60,600,6,1020,1.02
+2024-01-22,national,search,130,1300,13,1030,1.03
+2024-01-22,national,social,65,650,7,1030,1.03
+2024-01-29,national,search,140,1400,14,1040,1.04
+2024-01-29,national,social,70,700,7,1040,1.04
+2024-02-05,national,search,150,1500,15,1050,1.05
+2024-02-05,national,social,75,750,8,1050,1.05
+2024-02-12,national,search,160,1600,16,1060,1.06
+2024-02-12,national,social,80,800,8,1060,1.06
+2024-02-19,national,search,170,1700,17,1070,1.07
+2024-02-19,national,social,85,850,9,1070,1.07

@@ -1,0 +1,107 @@
+{
+  "pymc_marketing": "1.1.0",
+  "pymc": "6.2.0",
+  "sampler": {
+    "chains": 4,
+    "draws": 2000,
+    "tune": 2000,
+    "target_accept": 0.95,
+    "nuts_sampler": "nutpie",
+    "seconds": 36
+  },
+  "divergences": 7139,
+  "max_rhat": 1.080518796703203,
+  "min_ess_bulk": 50.56852703938147,
+  "baseline_share": {
+    "true": 0.7510426419854022,
+    "median": 0.3355198993224841,
+    "hdi94": [
+      -0.8560242283357234,
+      0.8254623987426762
+    ]
+  },
+  "decomposition": {
+    "spend_search": 14978163.951266015,
+    "spend_social": 13264640.40997985,
+    "spend_video": 5583914.15181744,
+    "spend_display": 5703358.930172615,
+    "price_index": -21808654.452184815,
+    "trend": 9180754.979734844,
+    "yearly_seasonality": 6872.164548246015,
+    "intercept": 44983012.00559318
+  },
+  "channels": [
+    {
+      "channel": "search",
+      "spend_eur": 1877662.0270416508,
+      "true_roi": 5.354809533588546,
+      "roi_median": 7.9770287386941785,
+      "roi_hdi94_low": 0.7803820647059451,
+      "roi_hdi94_high": 50.08676440708317,
+      "true_contribution": 10054522.523259826,
+      "contribution_median": 14978163.951266015,
+      "true_adstock_decay": 0.2,
+      "adstock_alpha_median": 0.3496251632455535,
+      "adstock_alpha_hdi94": [
+        0.031820006256663036,
+        0.6884274909832749
+      ],
+      "roi_error_pct": 48.96942064246199,
+      "truth_inside_hdi": true
+    },
+    {
+      "channel": "social",
+      "spend_eur": 1128621.9507053606,
+      "true_roi": 5.496480326098268,
+      "roi_median": 11.75295270634226,
+      "roi_hdi94_low": 1.7764755770194005,
+      "roi_hdi94_high": 85.36738254989393,
+      "true_contribution": 6203448.347654664,
+      "contribution_median": 13264640.40997985,
+      "true_adstock_decay": 0.45,
+      "adstock_alpha_median": 0.32095832157219484,
+      "adstock_alpha_hdi94": [
+        0.07307861151105148,
+        0.6178133854521466
+      ],
+      "roi_error_pct": 113.82688573517031,
+      "truth_inside_hdi": true
+    },
+    {
+      "channel": "video",
+      "spend_eur": 1345015.9718069737,
+      "true_roi": 4.532687753621431,
+      "roi_median": 4.151559735246623,
+      "roi_hdi94_low": 2.757645250901282,
+      "roi_hdi94_high": 5.749692906727036,
+      "true_contribution": 6096537.423834698,
+      "contribution_median": 5583914.15181744,
+      "true_adstock_decay": 0.7,
+      "adstock_alpha_median": 0.7137877300193564,
+      "adstock_alpha_hdi94": [
+        0.6078689774738286,
+        0.798026077793215
+      ],
+      "roi_error_pct": -8.408433121613157,
+      "truth_inside_hdi": true
+    },
+    {
+      "channel": "display",
+      "spend_eur": 524072.4651875372,
+      "true_roi": 2.912191830072112,
+      "roi_median": 10.88276776405662,
+      "roi_hdi94_low": 1.5035937008608955,
+      "roi_hdi94_high": 167.356079010228,
+      "true_contribution": 1526199.551484897,
+      "contribution_median": 5703358.930172615,
+      "true_adstock_decay": 0.3,
+      "adstock_alpha_median": 0.2304659035369478,
+      "adstock_alpha_hdi94": [
+        0.016090729878806886,
+        0.7374475904902918
+      ],
+      "roi_error_pct": 273.69680292617056,
+      "truth_inside_hdi": true
+    }
+  ]
+}

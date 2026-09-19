@@ -1,0 +1,10 @@
+{
+  "confirmed": false,
+  "source_url": "https://ads.tiktok.com/help/article/how-to-pull-media-mix-modeling-mmm-data-in-tiktok-ads-manager",
+  "verified_at": "2026-09-07",
+  "caveat": "TikTok no publica las columnas del export. La ayuda oficial solo dice que trae impresiones y gasto a nivel de campana y DMA (solo EE. UU.), con granularidad diaria. Nada mas esta documentado.",
+  "columns": [
+    "_TODO_bring_real_export_header"
+  ],
+  "allowed_optional_columns": []
+}

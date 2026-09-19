@@ -1,0 +1,102 @@
+{
+  "brandlift_rct": {
+    "truth_att_pp": 7.2070732803836375,
+    "truth_ate_pp": 7.2094650000000025,
+    "n_respondents": 19028,
+    "estimates": {
+      "naive": {
+        "lift_pp": 7.217682846866241,
+        "ci95_half_pp": 1.3295692750032795
+      },
+      "adjusted": {
+        "lift_pp": 6.848096292307336
+      },
+      "reweighted": {
+        "lift_pp": 7.2635553095280745,
+        "ci95_half_pp": 1.36092565220505
+      },
+      "both": {
+        "lift_pp": 6.873520803618166
+      }
+    },
+    "by_segment": {
+      "heavy_digital=0": {
+        "naive_lift_pp": 6.078007150935649,
+        "ci95_half_pp": 1.5167148138752728,
+        "true_lift_pp": 6.0
+      },
+      "heavy_digital=1": {
+        "naive_lift_pp": 9.635535712985387,
+        "ci95_half_pp": 2.6182838779196973,
+        "true_lift_pp": 9.0
+      }
+    },
+    "n2000": {
+      "lift_pp_mean": 7.1598722357250555,
+      "lift_pp_sd": 1.9402962364455183,
+      "ci95_half_pp_mean": 4.103592083461125,
+      "share_ci_excludes_zero": 0.94,
+      "share_ci_covers_truth": 0.96
+    },
+    "bias_diagnostics": {
+      "naive_diff_in_population_pp": 7.45310827643022,
+      "confounding_pp": 0.24603499604658324,
+      "exposure_rate_population": 0.500475,
+      "exposure_rate_respondents": 0.5341076308597856,
+      "response_rate_exposed": 0.10153354313402267,
+      "response_rate_control": 0.08873429758270357,
+      "heavy_digital_share_population": 0.403155,
+      "heavy_digital_share_respondents": 0.28720832457431156
+    }
+  },
+  "brandlift_obs": {
+    "truth_att_pp": 7.789734703632889,
+    "truth_ate_pp": 7.2094650000000025,
+    "n_respondents": 18958,
+    "estimates": {
+      "naive": {
+        "lift_pp": 12.36614320798593,
+        "ci95_half_pp": 1.3327555063715921
+      },
+      "adjusted": {
+        "lift_pp": 7.2864141064839085
+      },
+      "reweighted": {
+        "lift_pp": 12.43321528559777,
+        "ci95_half_pp": 1.3630783520374858
+      },
+      "both": {
+        "lift_pp": 7.378427161805705
+      }
+    },
+    "by_segment": {
+      "heavy_digital=0": {
+        "naive_lift_pp": 6.693860720818812,
+        "ci95_half_pp": 1.6123768476620202,
+        "true_lift_pp": 6.0
+      },
+      "heavy_digital=1": {
+        "naive_lift_pp": 9.766511607002403,
+        "ci95_half_pp": 3.0200281062391348,
+        "true_lift_pp": 9.0
+      }
+    },
+    "n2000": {
+      "lift_pp_mean": 12.373793416324878,
+      "lift_pp_sd": 1.8631794239048494,
+      "ci95_half_pp_mean": 4.100770033928359,
+      "share_ci_excludes_zero": 1.0,
+      "share_ci_covers_truth": 0.385
+    },
+    "bias_diagnostics": {
+      "naive_diff_in_population_pp": 12.779353954387796,
+      "confounding_pp": 4.989619250754906,
+      "exposure_rate_population": 0.50208,
+      "exposure_rate_respondents": 0.48486127228610615,
+      "response_rate_exposed": 0.09153919694072658,
+      "response_rate_control": 0.09806796272493573,
+      "heavy_digital_share_population": 0.403155,
+      "heavy_digital_share_respondents": 0.29918767802510815
+    }
+  }
+}

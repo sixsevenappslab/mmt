@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "currency": "EUR",
+  "granularity": "weekly-mon",
+  "timezone": "Europe/Madrid",
+  "geos": ["north", "south"],
+  "channels": ["search", "social"]
+}

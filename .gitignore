@@ -1,0 +1,32 @@
+# External repos cloned for reading — never versioned here
+libs/repos/*
+!libs/repos/.gitkeep
+
+# Datasets: always synthetic, always regenerable, never committed
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+# Python
+.venv
+.venvs
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Model artifacts (netcdf traces, pickles) are big and reproducible
+*.nc
+*.pkl
+experiments/**/output/
+# The learner's own prior fit (lesson 04) is personal, never shared
+experiments/02-meridian-vs-verdad/results/roi-custom/
+
+# Learner progress (per person, never shared)
+.progreso/
+.mmt/
+
+.env
+
+# Mirrors of external documentation (regenerable, third-party content)
+libs/docs/meridian/

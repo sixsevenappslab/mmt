@@ -1,0 +1,53 @@
+{
+  "confirmed": true,
+  "source_url": "https://developers.google.com/meridian/docs/pre-modeling/using-mmm-data-platform",
+  "verified_at": "2026-09-07",
+  "feeds": {
+    "google_ads": {
+      "confirmed": true,
+      "required_columns": [
+        "GroupName",
+        "ReportDate",
+        "TimeGranularity",
+        "Product",
+        "CountryCriteriaId",
+        "CountryName",
+        "RegionCriteriaId",
+        "RegionName",
+        "MetroCriteriaId",
+        "MetroName",
+        "Device",
+        "Targeting",
+        "Impressions",
+        "Clicks",
+        "CostUsd",
+        "Cost"
+      ],
+      "allowed_optional_columns": [
+        "VideoViews"
+      ]
+    },
+    "dv360": {
+      "confirmed": true,
+      "required_columns": [
+        "AdvertiserName",
+        "AdvertiserId",
+        "CurrencyCode",
+        "CampaignName",
+        "CampaignId",
+        "InsertionOrderName",
+        "LineItemName",
+        "LineItemId",
+        "LineItemType",
+        "CreativeType",
+        "DeviceType",
+        "RegionName",
+        "ReportDate",
+        "Impressions",
+        "Clicks",
+        "MediaCost"
+      ],
+      "allowed_optional_columns": []
+    }
+  }
+}

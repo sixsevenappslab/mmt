@@ -1,0 +1,23 @@
+{
+  "confirmed": false,
+  "source_url": "https://developers.facebook.com/docs/marketing-api/insights/marketing-mix-modeling/",
+  "verified_at": "2026-09-07",
+  "caveat": "columnas de la API de Insights, no confirmadas contra el export real de la UI de Ads Reporting; puede traer nombres legibles como 'Amount spent (EUR)'",
+  "columns": [
+    "account_id",
+    "campaign_id",
+    "adset_id",
+    "date_start",
+    "date_stop",
+    "impressions",
+    "spend",
+    "country",
+    "region",
+    "dma",
+    "device_platform",
+    "platform_position",
+    "publisher_platform",
+    "creative_media_type"
+  ],
+  "allowed_optional_columns": []
+}

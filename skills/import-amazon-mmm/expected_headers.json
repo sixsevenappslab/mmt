@@ -1,0 +1,10 @@
+{
+  "confirmed": false,
+  "source_url": "https://advertising.amazon.com/en-gb/measurement-analytics/marketing-mix-models",
+  "verified_at": "2026-09-07",
+  "caveat": "Amazon no publica un esquema legible del MMM data feed. La pagina de esquema de la API es una SPA que no sirvio contenido sin JavaScript, asi que no hay lista de columnas de la que partir.",
+  "columns": [
+    "_TODO_bring_real_export_header"
+  ],
+  "allowed_optional_columns": []
+}
