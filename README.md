@@ -1,5 +1,7 @@
 # MMT · Marketing Measurement Toolkit
 
+Por **Jesús Martín Calvo** · [sixsevenapps.com](https://sixsevenapps.com)
+
 Un sitio para aprender medición de marketing **haciéndola**: marketing mix modeling,
 incrementalidad, experimentos geo y encuestas de impacto, con librerías reales y datos
 sintéticos cuya verdad conocemos de antemano.
@@ -99,3 +101,13 @@ nombre y el dominio en texto.
 
 Lo que no cubre ninguna de las dos licencias: el material de terceros al que enlazamos. Los
 vídeos del catálogo son de sus autores y aquí solo hay enlaces y comentarios.
+
+## Quién está detrás
+
+Lo escribe **Jesús Martín Calvo**, en [sixsevenapps.com](https://sixsevenapps.com).
+
+Si te interesa el tema, escribo también sobre medición de marketing en
+[Quantified Nation](https://www.quantifiednation.com), junto a Pablo Pérez: atribución,
+incrementalidad, elasticidad de precio y qué creer de lo que cuentan las plataformas.
+
+Para dudas o erratas, abre una issue en este repositorio.

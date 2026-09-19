@@ -3,6 +3,7 @@ name = "mmt"
 version = "0.1.0"
 description = "Marketing Measurement Toolkit — banco de pruebas de MMM, causalidad y atribucion"
 requires-python = ">=3.11,<3.13"
+authors = [{ name = "Jesús Martín Calvo" }]
 dependencies = [
     "numpy>=2.0",
     "pandas>=2.2",
@@ -13,6 +14,10 @@ dependencies = [
 # Heavy modelling libraries are intentionally NOT listed here: Meridian (TensorFlow
 # Probability) and PyMC-Marketing (PyTensor) do not resolve well together. Each one
 # gets its own venv under .venvs/ — see AGENTS.md.
+
+[project.urls]
+Homepage = "https://sixsevenapps.com"
+Repository = "https://github.com/sixsevenappslab/mmt"
 
 [tool.ruff]
 line-length = 100
