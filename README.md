@@ -68,5 +68,15 @@ librería y los generadores de datos.
 
 ## Licencia
 
-Sin definir todavía. Hasta que se publique una licencia explícita, todos los derechos quedan
-reservados. Si quieres usar algo de aquí, abre una issue y lo hablamos.
+Dos licencias, porque aquí hay dos cosas distintas.
+
+- **El código** (los `.py`, `.sh` y la configuración: generadores, arnés de práctica,
+  utilidades y tests) va bajo **MIT**, en `LICENSE`. Cógelo y úsalo como quieras, incluso en
+  algo comercial. Solo mantén el aviso de copyright.
+- **El contenido** (lecciones, conceptos, notas de herramientas y el catálogo de vídeo) va
+  bajo **CC BY-SA 4.0**, en `LICENSE-CONTENT`. Puedes copiarlo, traducirlo, adaptarlo y darlo
+  en clase, también cobrando. Dos condiciones: cita de dónde viene, y si publicas una versión
+  modificada, compártela con la misma licencia.
+
+Lo que no cubre ninguna de las dos: el material de terceros al que enlazamos. Los vídeos del
+catálogo son de sus autores y aquí solo hay enlaces y comentarios.
